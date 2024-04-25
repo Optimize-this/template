@@ -25,7 +25,7 @@ from langchain.agents.gigachat_functions_agent.base import (
 
 model = GigaChat(
     #credentials=os.getenv("CREDENTIALS"),
-    credentials="Yjg4MTQzMmUtNDAwMS00NDk0LThjOGUtNmU5ZWQ2YzQ4NDQ2OmQ4MWMxZGZiLTFmNGYtNDk5NS05OGQzLTBiMzYyYWJmNjk3OA==",#os.getenv("CREDENTIALS"),
+    credentials=*****",#os.getenv("CREDENTIALS"),
     scope='GIGACHAT_API_CORP',
     verify_ssl_certs=False,
 )
